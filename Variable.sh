@@ -1,7 +1,9 @@
 
 #!/bin/bash
+Person1=suresh
+Person2=ramesh
 
-echo "suresh: Hello ramesh, How are you?"
-echo "ramesh: Hello suresh, I am fine"
-echo "suresh : What are you learning ramesh"
-echo "ramesh : I am learning shell. What about you?"
+echo "$Person1: Hello $Person2, How are you?"
+echo "$Person2: Hello $Person1, I am fine"
+echo "$Person1 : What are you learning $Person2"
+echo "$Person2 : I am learning shell. What about you?"
