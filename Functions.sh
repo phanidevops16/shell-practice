@@ -18,6 +18,8 @@ else
 fi
 }
 
+dnf remove nginx -y
+
 echo "Installing Nginx"
 dnf install nginx -y
 
