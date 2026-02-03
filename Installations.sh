@@ -18,4 +18,5 @@ if [$? -ne 0]; then
 else
    echo "Installing Nginx .... Passed"
 fi
-echo "installed"
+
+
