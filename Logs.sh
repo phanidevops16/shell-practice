@@ -22,6 +22,10 @@ else
 fi
 }
 
+echo " uninstalling nginx"
+
+rm -r nginx
+
 echo "Installing Nginx"
 dnf install nginx -y & >> $LOG_File
 
