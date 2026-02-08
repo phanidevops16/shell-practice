@@ -13,3 +13,6 @@ echo "sum value is $sum"
 FRUITS=("Apple","Banana","Grapes")
 
 echo "Fruits:${FRUITS[@]}"
+echo "Fruits:${FRUITS[0]}"
+echo "Fruits:${FRUITS[1]}"
+echo "Fruits:${FRUITS[2]}"
